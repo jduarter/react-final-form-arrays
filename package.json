@@ -10,7 +10,6 @@
     "dist"
   ],
   "scripts": {
-    "build": "npx rollup -c rollup.config.js --environment FORMAT:es",
     "start": "nps",
     "test": "nps test",
     "precommit": "lint-staged && npm start validate"
